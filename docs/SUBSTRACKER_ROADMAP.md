@@ -25,32 +25,32 @@ Wallosインスパイア・自宅ホスト型のサブスクリプション管�
 ## Phase 0: 準備
 
 ### 0-1. ツールインストール
-- [ ] Node.js 20+ をインストール (`node -v` で確認)
-- [ ] Docker Desktop をインストール (`docker --version` で確認)
-- [ ] Git をインストール (`git --version` で確認)
-- [ ] VS Code or 好きなエディタを準備
+- [x] Node.js 20+ をインストール (`node -v` で確認)
+- [x] Docker Desktop をインストール (`docker --version` で確認)
+- [x] Git をインストール (`git --version` で確認)
+- [x] VS Code or 好きなエディタを準備
 
 ### 0-2. プロジェクト作成
-- [ ] GitHubで空の `substracker` リポジトリを作成
-- [ ] `npx create-next-app@latest substracker` で雛形作成
+- [x] GitHubで空の `substracker` リポジトリを作成
+- [x] `npx create-next-app@latest substracker` で雛形作成
   - TypeScript: Yes
   - ESLint: Yes
   - Tailwind CSS: Yes
   - `src/` directory: Yes
   - App Router: Yes
-- [ ] `git remote add origin` でGitHubに接続
-- [ ] 初回 push 完了
+- [x] `git remote add origin` でGitHubに接続
+- [x] 初回 push 完了
 
 ### 0-3. 動作確認
-- [ ] `npm run dev` で http://localhost:3000 が表示される
+- [x] `npm run dev` で http://localhost:3000 が表示される
 
 ### 0-4. UI部品セットアップ
-- [ ] `npx shadcn@latest init` 実行
-- [ ] 基本コンポーネント追加 `npx shadcn@latest add button card input label select dialog form`
+- [x] `npx shadcn@latest init` 実行
+- [x] 基本コンポーネント追加 `npx shadcn@latest add button card input label select dialog form`
 
 ### 0-5. プロジェクト構成準備
-- [ ] `.env.example` を作成 (GitHubに上げる用テンプレート)
-- [ ] `.gitignore` に `.env` `data/` `node_modules/` が含まれているか確認
+- [x] `.env.example` を作成 (GitHubに上げる用テンプレート)
+- [x] `.gitignore` に `.env` `data/` `node_modules/` が含まれているか確認
 
 ---
 
@@ -59,10 +59,10 @@ Wallosインスパイア・自宅ホスト型のサブスクリプション管�
 **完成イメージ**: ログインして、サブスクを登録・編集・削除できる
 
 ### 1-1. Docker環境構築
-- [ ] プロジェクトルートに `docker-compose.yml` 作成 (DB用)
-- [ ] `docker compose up -d` で PostgreSQL 起動
-- [ ] `docker compose ps` で稼働確認
-- [ ] DBクライアント (TablePlus, DBeaver等) で接続確認
+- [x] プロジェクトルートに `docker-compose.yml` 作成 (DB用)
+- [x] `docker compose up -d` で PostgreSQL 起動
+- [x] `docker compose ps` で稼働確認
+- [x] DBクライアント (TablePlus, DBeaver等) で接続確認
 
 ### 1-2. Prismaセットアップ
 - [ ] `npm install prisma @prisma/client`
